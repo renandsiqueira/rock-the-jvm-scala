@@ -1,0 +1,29 @@
+project/target
+target
+.idea
+.metals
+
+#---vim
+*.swp
+#------
+
+#---eclipse
+/bin/
+.cache-main
+.cache-tests
+.classpath
+.project
+.settings/
+#---------
+
+#--intellij
+*.iml
+#---------
+
+# SCoverage
+scoverage-report
+testreport
+
+# Developer Local Environment
+.jvmopts
+.env

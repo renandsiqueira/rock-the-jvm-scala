@@ -1,5 +1,6 @@
 project/target
 target
+out
 .idea
 .metals
 

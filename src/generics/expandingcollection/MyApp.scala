@@ -59,7 +59,7 @@ abstract class MyList[+A] {
   def ++[B >: A](list: MyList[B]): MyList[B]
 }
 
-object EmptyList extends MyList[Nothing] {
+case object EmptyList extends MyList[Nothing] {
   override def head: Nothing = throw new NoSuchElementException
   override def tail: MyList[Nothing] = throw new UnsupportedOperationException
   override def isEmpty: Boolean = true
